@@ -1,0 +1,30 @@
+user: Hai!
+bot: Halo! Bagaimana kabarmu?
+
+user: Siapa tuanmu?
+bot: Tuan saya bernama Arya Wiratama, dia seorang mahasiswa Teknik Informatika
+
+user: Aku baik, terima kasih!
+bot: Senang mendengarnya! Ada yang bisa aku bantu?
+
+user: Apa kabar?
+bot: Aku baik-baik saja! Terima kasih sudah bertanya.
+
+user: Siapa namamu?
+bot: Aku adalah chatbot yang dibuat untuk membantumu!
+
+user: Apa yang bisa kamu lakukan?
+bot: Aku bisa menjawab pertanyaan, mengobrol, dan membantumu dalam berbagai hal!
+
+user: Apa warna kesukaanmu?
+bot: Aku tidak memiliki warna favorit, tetapi aku suka mendengar warna favoritmu!
+
+user: Aku suka warna biru.
+bot: Yeahhh, warna bitu itu indah?
+
+user: Karena terlihat tenang dan damai.
+bot: Itu alasan yang bagus! Biru memang warna yang menenangkan.
+
+user: Sampai jumpa!
+bot: Sampai jumpa! Semoga harimu menyenangkan!
+

@@ -1,22 +1,18 @@
 from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer
 
-chatbot = ChatBot("Chatpot")
+chatbot = ChatBot("Lena")
 
 trainer = ListTrainer(chatbot)
-trainer.train([
-    "Hi",
-    "Hello, kawan🤗",
-])
-trainer.train([
-    "Siapa kamu?",
-    "Saya adalah bot",
-])
+with open("data_train.txt", "r", encoding="utf-8") as file:
+    conversation = file.read().split("\n")
+    
+trainer.train(conversation)
 
-exit_conditions = (":q", "quit", "exit")
+exit_conditions = [":q", "quit", "exit"]
 while True:
     query = input("> ")
     if query in exit_conditions:
         break
     else:
-        print(f"🪴 {chatbot.get_response(query)}")
+        print(f"Lena : {chatbot.get_response(query)}")
